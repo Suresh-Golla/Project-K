@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+a{
+    color:blue;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(252, 181, 0);
+    padding: 10px;
+
+
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+nav a.active{
+    background-color: rgb(0, 179, 255);
+  
+}
+nav a:visited, a:link {
+    color: rgb(255, 255, 255);
+  }
